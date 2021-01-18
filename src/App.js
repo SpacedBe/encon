@@ -7,19 +7,22 @@ import {
   Link
 } from "react-router-dom";
 
+import Home from "./pages/Home";
+import Library from "./pages/Library";
+
 function App() {
   return (
-      <Switch>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/users">
-          <Users />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
+      <Router>
+        <Switch>
+          <Route path="/library">
+            <Library/>
+          </Route>
+
+          <Route path="/">
+            <Home/>
+          </Route>
+        </Switch>
+      </Router>
   );
 }
 
