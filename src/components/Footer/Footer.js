@@ -1,11 +1,16 @@
 import React from "react";
 import './Footer.scss';
+import footericon from "../../assets/images/encon_sec_logo.svg"
 
 function Footer(props) {
     return (
-        <div>
-            <p></p>
-        </div>
+        <footer className="footer">
+            <div class="content">
+                <img className="logo" src={footericon}/>
+                <p dangerouslySetInnerHTML={{__html: props.content}}></p>
+            </div>
+            <p className="copyright">{props.copyright}</p>
+        </footer>
     );
 }
 

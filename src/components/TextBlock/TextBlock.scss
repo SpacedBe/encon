@@ -1,23 +1,25 @@
-.grey {
-  color: var(--color-black);
-  background-color: var(--color-secondary-tint);
-}
+textBlock {
+  .grey {
+    color: var(--color-black);
+    background-color: var(--color-secondary-tint);
+  }
 
-.green {
-  color: var(--color-white);
-  background-color: var(--color-primary);
-}
+  .green {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+  }
 
-.block {
-  padding: 36px 24px;
-}
+  .block {
+    padding: 36px 24px;
+  }
 
-.content {
-  margin-top: 30px;
+  .content {
+    margin-top: 30px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-  .blocks {
+  .textBlock {
     display: flex;
 
     .block {

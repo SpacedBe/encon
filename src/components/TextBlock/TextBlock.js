@@ -3,7 +3,7 @@ import './TextBlock.scss';
 
 function TextBlock(props) {
     return (
-        <section className="blocks">
+        <section className="textBlock">
             <div className="grey block">
                 <h3>{props.greyTitle}</h3>
                 <p className="content">{props.greyContent}</p>

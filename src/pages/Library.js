@@ -4,11 +4,16 @@ import InsightCopyLeft from "../components/InsightCopyLeft/InsightCopyLeft";
 import '../index.scss'
 import InsightCopyRight from "../components/InsightCopyRight/InsightCopyRight";
 import InsightDoubleImage from "../components/InsightDoubleImage/InsightDoubleImage";
+import Footer from "../components/Footer/Footer";
 
 function Library() {
     return (
         <div className="container">
             <h1>Library</h1>
+
+            <h2>Footer</h2>
+            <Footer content={"De Duurzaamheidsbarometer – een initiatief van Encon. Voor meer informatie, contacteer ons via info@encon.be. Of surf naar www.encon.be"}
+                    copyright={"Algemene voorwaarden" + "© 2021 Encon"}></Footer>
 
             <h2>Insights</h2>
             <h3>Double Img</h3>
