@@ -2,6 +2,7 @@ import React from "react";
 import TextBlock from "../components/TextBlock/TextBlock";
 import InsightCopyLeft from "../components/InsightCopyLeft/InsightCopyLeft";
 import '../index.scss'
+import InsightCopyRight from "../components/InsightCopyRight/InsightCopyRight";
 
 function Library() {
     return (
@@ -9,6 +10,12 @@ function Library() {
             <h1>Library</h1>
 
             <h2>Insights</h2>
+            <h3>Copy Right</h3>
+            <InsightCopyRight title={"Het tweede inzicht"}
+                              content={"Je denkt dat de vlaming de verantwoordelijkheid voor milieuproblemen legt bij resultaat van bovenstaande vragenlijst en dat resultaat van bovenstaande vragenlijst duurzaamheid niet belangrijk vindt voor bedrijven." +
+                              "<br/> <br/>" + "De Vlaming vindt dat bedrijven hun verantwoordelijkheid moeten opnemen om milieuproblemen op te lossen. 39% vindt dat het zelfs vooral aan bedrijven is hierin het voortouw te nemen, boven bijvoorbeeld burgerbewegingen of politiek. Slechts een kleine 2-3% vindt het niet belangrijk dat bedrijven initiatieven ondernemen in het management van het bedrijf of bijvoorbeeld op gebied van water- en energieverbruik, vervoer van goederen, materiaalkeuze in de productie of verwerking van afval."}
+                              imageNumber={"10"}/>
+
             <h3>Copy Left</h3>
             <InsightCopyLeft title={"Het eerste inzicht"}
                              content={"Je denkt dat de Vlaming een resultaat van bovenstaande vragenlijst  geloof heeft in bedrijven of organisaties die zich als duurzaam voorstellen. Volgens jou gelooft de Vlaming dat bedrijven vooral duurzaam ondernemen om resultaat van bovenstaande vragenlijst. Je schat daarnaast in dat de Vlaming het resultaat van bovenstaande vragenlijst   aanvaardbaar vindt dat bedrijven winst maken door duurzaam te ondernemen." +
