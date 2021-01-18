@@ -2,3 +2,25 @@
   color: var(--color-primary);
   margin-bottom: 24px;
 }
+
+.image {
+  margin-top: 36px;
+}
+
+.insight {
+  padding: 56px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .insight {
+    display: flex;
+
+    .insightContent {
+      margin-right: 50px;
+    }
+
+    .image {
+      width: 40%;
+    }
+  }
+}

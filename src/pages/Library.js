@@ -20,7 +20,7 @@ function Library() {
                              "<li>Het bedrijf biedt mogelijkheid aan personeel tot alternatief transport; Werkgever biedt duurzame mobiliteitsoplossingen aan in het loonpakket;</li>" +
                              "<li> Werknemers worden actief betrokken bij ontwikkelen van strategie en acties rond duurzaamheid. </li></ul>" +
                              "22% van de Vlaamse sollicitanten en 41% van de Vlaamse werknemers zochten ooit al proactief informatie op over de duurzaamheidsacties van hun (potentiële) werkgever."}
-                             number={"02"}/>
+                             imageNumber={"02"}/>
 
             <h2>Text Block</h2>
             <TextBlock greyTitle={"Uitdagingen"}

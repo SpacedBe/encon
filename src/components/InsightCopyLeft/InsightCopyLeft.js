@@ -3,18 +3,14 @@ import './InsightCopyLeft.scss';
 
 function InsightCopyLeft(props) {
     return (
-        <section>
-            <h3 className="headerTitle">{props.title}</h3>
-            <div>
+        <section className="insight">
+            <div className="insightContent">
+                <h3 className="headerTitle">{props.title}</h3>
                 <p dangerouslySetInnerHTML={{__html: props.content}}></p>
-                <img src={'../../assets/images/deelelement_' + props.number + '.png'}/>
             </div>
+            <img className="image" src={process.env.PUBLIC_URL + '/assets/images/deelelementen/Encon_IG_Deelelementen_'+ props.imageNumber +'.png'}/>
         </section>
     );
 }
 
 export default InsightCopyLeft;
-
-<li>
-</li>
-
