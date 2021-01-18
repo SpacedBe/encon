@@ -3,6 +3,7 @@ import TextBlock from "../components/TextBlock/TextBlock";
 import InsightCopyLeft from "../components/InsightCopyLeft/InsightCopyLeft";
 import '../index.scss'
 import InsightCopyRight from "../components/InsightCopyRight/InsightCopyRight";
+import InsightDoubleImage from "../components/InsightDoubleImage/InsightDoubleImage";
 
 function Library() {
     return (
@@ -10,6 +11,14 @@ function Library() {
             <h1>Library</h1>
 
             <h2>Insights</h2>
+            <h3>Double Img</h3>
+            <InsightDoubleImage title={"Het derde inzicht"}
+                                content={"Je denkt dat de Vlaming een resultaat van bovenstaande vragenlijst  geloof heeft in bedrijven of organisaties die zich als duurzaam voorstellen. Volgens jou gelooft de Vlaming dat bedrijven vooral duurzaam ondernemen om resultaat van bovenstaande vragenlijst. Je schat daarnaast in dat de Vlaming het resultaat van bovenstaande vragenlijst aanvaardbaar vindt dat bedrijven winst maken door duurzaam te ondernemen." +
+                                "<br/><br/>" +
+                                "Slechts 17% van de Vlaamse werknemers vindt het persoonlijk niet belangrijk dat zijn werkgever inzet op duurzaamheid. 29% vind het belangrijk genoeg dat het eventueel zou kunnen leiden tot veranderen van job." + "<br/><br/>" +
+                                "Werknemers geven zelf bovendien aan dat hun huidige werkgever niet helemaal inzet op duurzaamheid. 53% geeft een score van 0-6 aan hun huidige werkgever. 21% vindt bovendien dat het bedrijf waarvoor ze werken minder duurzaam is dan het naar de buitenwereld toe laat uitschijnen."}
+                                imageLeftNumber={"03"}
+                                imageRightNumber={"09"}/>
             <h3>Copy Right</h3>
             <InsightCopyRight title={"Het tweede inzicht"}
                               content={"Je denkt dat de vlaming de verantwoordelijkheid voor milieuproblemen legt bij resultaat van bovenstaande vragenlijst en dat resultaat van bovenstaande vragenlijst duurzaamheid niet belangrijk vindt voor bedrijven." +
