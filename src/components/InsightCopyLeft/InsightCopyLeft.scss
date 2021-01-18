@@ -1,0 +1,36 @@
+.headerTitle {
+  color: var(--color-primary);
+  margin-bottom: 24px;
+}
+
+.rightImage {
+  margin-top: 36px;
+}
+
+.insight {
+  padding: 56px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .insight {
+    display: flex;
+
+    .insightContentLeft {
+      margin-right: 30px;
+    }
+
+    .rightImage {
+      width: 40%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .rightImage {
+    max-width: 400px;
+  }
+
+  .insightContentLeft {
+    margin-right: 50px;
+  }
+}

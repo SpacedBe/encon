@@ -1,0 +1,23 @@
+.leftImage {
+  margin-bottom: 36px;
+}
+
+@media only screen and (min-width: 768px) {
+  .leftImage {
+    width: 40%;
+  }
+
+  .insightContentRight {
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .leftImage {
+    max-width: 400px;
+  }
+
+  .insightContentRight {
+    margin-left: 50px;
+  }
+}

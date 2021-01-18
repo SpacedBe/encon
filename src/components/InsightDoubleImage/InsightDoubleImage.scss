@@ -1,0 +1,43 @@
+.doubleContent {
+  margin-top: 36px;
+}
+
+.doubleImages {
+  img {
+    margin-top: 36px;
+  }
+}
+
+.insightDouble {
+  margin: 56px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .doubleContent {
+    width: 80%;
+  }
+
+  .insightDouble {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .doubleImages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+      width: 50%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .doubleImages {
+    img {
+      max-width: 520px;
+    }
+  }
+}
+
