@@ -3,6 +3,14 @@
     color: var(--color-black) !important;
   }
 
+  ul {
+    list-style-type: circle !important;
+
+    li {
+      padding: 0 !important;
+    }
+  }
+
   .green {
     color: var(--color-primary) !important;
   }
