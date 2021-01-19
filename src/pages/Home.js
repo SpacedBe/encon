@@ -14,20 +14,23 @@ function Home() {
         <div>
             <div className="bigContainer">
                 <img className="logo" src={Logo}/>
+                
             </div>
 
-            <section className="smallContainer">
-                <h1 className="green">Resultaten quick scan</h1>
-                <p>Dankjewel voor het invullen van onze Duurzaamheidsbarometer quick scan. We hebben je antwoorden
-                    vergeleken met die van 1.572 Vlamingen om te achterhalen of je antwoorden vanuit een bedrijfscontext
-                    overeen komen met wat de Vlaming ook effectief wil of nodig heeft. </p>
-                <br/>
-                <p>Zelfs indien jullie rechtstreekse klant een bedrijf is, blijft het belangrijk om de noden van de
-                    eindconsument in het oog te houden. Door de behoeften van de Vlaming te kennen weet je namelijk voor
-                    welke uitdagingen jouw klanten staan en kan je je beter organiseren om hen te helpen deze
-                    uitdagingen aan te grijpen. Een bedrijf dat namelijk in staat is om zijn klanten te ondersteunen bij
-                    hun belangrijkste uitdagingen heeft een serieus voetje voor op de concurrentie.</p>
-            </section>
+            <div  className="container">
+                <section>
+                    <h1 className="green">Resultaten quick scan</h1>
+                    <p>Dankjewel voor het invullen van onze Duurzaamheidsbarometer quick scan. We hebben je antwoorden
+                        vergeleken met die van 1.572 Vlamingen om te achterhalen of je antwoorden vanuit een bedrijfscontext
+                        overeen komen met wat de Vlaming ook effectief wil of nodig heeft. </p>
+                    <br/>
+                    <p>Zelfs indien jullie rechtstreekse klant een bedrijf is, blijft het belangrijk om de noden van de
+                        eindconsument in het oog te houden. Door de behoeften van de Vlaming te kennen weet je namelijk voor
+                        welke uitdagingen jouw klanten staan en kan je je beter organiseren om hen te helpen deze
+                        uitdagingen aan te grijpen. Een bedrijf dat namelijk in staat is om zijn klanten te ondersteunen bij
+                        hun belangrijkste uitdagingen heeft een serieus voetje voor op de concurrentie.</p>
+                </section>
+            </div>
 
             <SmallCTA
                 image={"people.svg"}
@@ -35,7 +38,7 @@ function Home() {
                 logoTwo={"linkedin.svg"}
                 content={"Investeren in duurzaamheid doet bedrijven groeien én helpt onze planeet te beschermen. Is dat een inzicht dat je graag wil delen met je netwerk? Nodig dan snel collega’s en andere professionals uit om de Duurzaamheidsbarometer quick scan in te vullen en het voor zichzelf te ontdekken!"}></SmallCTA>
 
-            <div className="smallContainer">
+            <div className="container">
                 <InsightCopyLeft title={"Het eerste inzicht"}
                                  content={"Je denkt dat de Vlaming een resultaat van bovenstaande vragenlijst  geloof heeft in bedrijven of organisaties die zich als duurzaam voorstellen. Volgens jou gelooft de Vlaming dat bedrijven vooral duurzaam ondernemen om resultaat van bovenstaande vragenlijst. Je schat daarnaast in dat de Vlaming het resultaat van bovenstaande vragenlijst   aanvaardbaar vindt dat bedrijven winst maken door duurzaam te ondernemen." +
                                  "<br/> <br/>" +
@@ -54,12 +57,12 @@ function Home() {
                        greenTitle={"Opportuniteiten"}
                        greenContent={"Duurzaamheid is belangrijk voor 83% van de werknemers en 78% van de sollicitanten, maar dan moeten ze wel de juiste informatie gecommuniceerd worden, want ze gaan er niet altijd zelf naar op zoek."}/>
 
-            <div className="smallContainer">
+            <div className="container">
                 <FullImage imageNumber={"11"}></FullImage>
             </div>
 
 
-            <div className="bigContainer">
+            <div className="container">
                 <InsightCopyRight title={"Het tweede inzicht"}
                                   content={"Je denkt dat de vlaming de verantwoordelijkheid voor milieuproblemen legt bij resultaat van bovenstaande vragenlijst en dat resultaat van bovenstaande vragenlijst duurzaamheid niet belangrijk vindt voor bedrijven." +
                                   "<br/> <br/>" + "De Vlaming vindt dat bedrijven hun verantwoordelijkheid moeten opnemen om milieuproblemen op te lossen. 39% vindt dat het zelfs vooral aan bedrijven is hierin het voortouw te nemen, boven bijvoorbeeld burgerbewegingen of politiek. Slechts een kleine 2-3% vindt het niet belangrijk dat bedrijven initiatieven ondernemen in het management van het bedrijf of bijvoorbeeld op gebied van water- en energieverbruik, vervoer van goederen, materiaalkeuze in de productie of verwerking van afval."}
@@ -71,7 +74,7 @@ function Home() {
                        greenTitle={"Opportuniteiten"}
                        greenContent={"Duurzaamheid is belangrijk voor 83% van de werknemers en 78% van de sollicitanten, maar dan moeten ze wel de juiste informatie gecommuniceerd worden, want ze gaan er niet altijd zelf naar op zoek."}/>
 
-            <div className="bigContainer">
+            <div className="container">
                 <InsightDoubleImage title={"Het derde inzicht"}
                                     content={"Je denkt dat de Vlaming een resultaat van bovenstaande vragenlijst  geloof heeft in bedrijven of organisaties die zich als duurzaam voorstellen. Volgens jou gelooft de Vlaming dat bedrijven vooral duurzaam ondernemen om resultaat van bovenstaande vragenlijst. Je schat daarnaast in dat de Vlaming het resultaat van bovenstaande vragenlijst aanvaardbaar vindt dat bedrijven winst maken door duurzaam te ondernemen." +
                                     "<br/><br/>" +
@@ -87,7 +90,7 @@ function Home() {
                        greenTitle={"Opportuniteiten"}
                        greenContent={"Duurzaamheid is belangrijk voor 83% van de werknemers en 78% van de sollicitanten, maar dan moeten ze wel de juiste informatie gecommuniceerd worden, want ze gaan er niet altijd zelf naar op zoek."}/>
 
-            <div className="smallContainer">
+            <div className="container">
                 <FullImage imageNumber={"05"}></FullImage>
             </div>
 

@@ -2,28 +2,30 @@
   max-width: 130px;
 }
 
+.container {
+  padding: 36px 24px;
+}
+
 .bigContainer {
-  margin: 0 auto;
-  padding: 36px 24px;
   max-width: 1285px;
-}
-.smallContainer {
   padding: 36px 24px;
 }
+
 @media only screen and (min-width: 768px) {
-  .bigContainer {
+  .container {
     margin: 0 auto;
     padding: 56px 75px;
   }
 
-  .smallContainer {
-    margin: 0 auto;
+
+  .bigContainer {
+    max-width: 1285px;
     padding: 56px 75px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .smallContainer {
+  .container {
     margin: 0 auto;
     padding: 56px 150px;
   }
