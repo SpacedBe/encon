@@ -12,11 +12,11 @@ function BigCTA(props) {
             </div>
 
             <img className="cornerImage"
-                 src={process.env.PUBLIC_URL + '/assets/images/icons/' + props.cornerImage}/>
+                 src={process.env.PUBLIC_URL + '/assets/images/icons/' + props.cornerImage} alt={process.env.PUBLIC_URL + '/assets/images/icons/' + props.cornerImage}/>
 
             <div className="logos">
-                <img src={process.env.PUBLIC_URL + '/assets/images/icons/' + props.logoOne}/>
-                <img src={process.env.PUBLIC_URL + '/assets/images/icons/' + props.logoTwo}/>
+                <img src={process.env.PUBLIC_URL + '/assets/images/icons/' + props.logoOne} alt={process.env.PUBLIC_URL + '/assets/images/icons/' + props.logoOne}/>
+                <img src={process.env.PUBLIC_URL + '/assets/images/icons/' + props.logoTwo} alt={process.env.PUBLIC_URL + '/assets/images/icons/' + props.logoTwo}/>
             </div>
         </div>
     );

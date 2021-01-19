@@ -1,10 +1,20 @@
 .leftImage {
-  margin-bottom: 36px;
+  margin: 36px 0 0 0;
+}
+
+.insightRight {
+  display: flex;
+  flex-flow: column-reverse;
 }
 
 @media only screen and (min-width: 768px) {
   .leftImage {
     width: 40%;
+    margin: 0;
+  }
+
+  .insightRight {
+    flex-flow: row;
   }
 
   .insightContentRight {

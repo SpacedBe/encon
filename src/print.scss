@@ -53,8 +53,8 @@
     }
   }
 
-  .insight {
-    break-after: page;
+  .insightLeft, .insightRight {
+    break-before: page;
 
     img {
       max-width: 70%;
