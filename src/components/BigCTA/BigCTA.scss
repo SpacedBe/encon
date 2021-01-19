@@ -2,7 +2,7 @@
   position: relative;
   background-color: var(--color-secondary);
   color: var(--color-white);
-  padding: 36px 24px;
+  padding: 40px 24px;
 
   .logos {
     display: flex;
@@ -22,6 +22,7 @@
 
 @media only screen and (min-width: 768px) {
   .bigCTA {
+    padding: 40px 75px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -47,5 +48,11 @@
       max-height: 170px;
       display: inline;
     }
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .bigCTA {
+    padding: 40px 150px;
   }
 }

@@ -3,7 +3,7 @@ import './SmallCTA.scss';
 
 function SmallCTA(props) {
     return (
-        <div className="smallCTA">
+        <div className="smallCTA container">
             <div className="content">
                 <img className="icon" src={process.env.PUBLIC_URL + '/assets/images/icons/' + props.image}/>
                 <p>{props.content}</p>
