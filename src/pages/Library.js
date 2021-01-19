@@ -7,6 +7,7 @@ import InsightDoubleImage from "../components/InsightDoubleImage/InsightDoubleIm
 import Footer from "../components/Footer/Footer";
 import FullImage from "../components/FullImage/FullImage";
 import SmallCTA from "../components/SmallCTA/SmallCTA";
+import BigCTA from "../components/BigCTA/BigCTA";
 
 function Library() {
     return (
@@ -14,6 +15,16 @@ function Library() {
             <h1>Library</h1>
 
             <h2>CTA</h2>
+            <h3>Big</h3>
+            <BigCTA title={"Neem gerust contact op"}
+                    content={"We hopen dat deze inzichten verhelderend waren en de nadruk konden leggen op het onontgonnen potentieel van duurzaamheid voor de groei van jouw organisatie. Voor een uitgebreidere toelichting van de mogelijke impact van een duurzaamheidsstrategie én het potentieel van de integratie hiervan met je bedrijfs- of merkimago, staat Encon voor je klaar."
+                    + "<br/><br/>"
+                    + "Neem gerust contact met ons op voor een vrijblijvend gesprek."
+                    + "<br/><br/>" + "En als je de inzichten van deze Duurzaamheidsbarometer waardevol vindt, deel onze quick scan gerust met je collega’s of andere professionals. "}
+                    logoOne={"facebook.svg"}
+                    logoTwo={"linkedin.svg"}
+                    cornerImage={"corner.png"}/>
+
             <h3>Small</h3>
             <SmallCTA
                 image={"people.svg"}
