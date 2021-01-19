@@ -5,7 +5,7 @@ function FullImage(props) {
     return (
         <div className="fullImage">
             <img
-                src={process.env.PUBLIC_URL + '/assets/images/deelelementen/Encon_IG_Deelelementen_' + props.imageNumber + '.png'}/>
+                src={process.env.PUBLIC_URL + '/assets/images/elements/Encon_IG_Deelelementen_' + props.imageNumber + '.png'}/>
         </div>
     );
 }

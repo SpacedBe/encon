@@ -5,7 +5,7 @@ import footericon from "../../assets/images/encon_sec_logo.svg"
 function Footer(props) {
     return (
         <footer className="footer">
-            <div class="content">
+            <div className="content">
                 <img className="logo" src={footericon}/>
                 <p dangerouslySetInnerHTML={{__html: props.content}}></p>
             </div>

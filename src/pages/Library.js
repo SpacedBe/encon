@@ -6,11 +6,31 @@ import InsightCopyRight from "../components/InsightCopyRight/InsightCopyRight";
 import InsightDoubleImage from "../components/InsightDoubleImage/InsightDoubleImage";
 import Footer from "../components/Footer/Footer";
 import FullImage from "../components/FullImage/FullImage";
+import SmallCTA from "../components/SmallCTA/SmallCTA";
+import BigCTA from "../components/BigCTA/BigCTA";
 
 function Library() {
     return (
-        <div className="container">
+        <div>
             <h1>Library</h1>
+
+            <h2>CTA</h2>
+            <h3>Big</h3>
+            <BigCTA title={"Neem gerust contact op"}
+                    content={"We hopen dat deze inzichten verhelderend waren en de nadruk konden leggen op het onontgonnen potentieel van duurzaamheid voor de groei van jouw organisatie. Voor een uitgebreidere toelichting van de mogelijke impact van een duurzaamheidsstrategie én het potentieel van de integratie hiervan met je bedrijfs- of merkimago, staat Encon voor je klaar."
+                    + "<br/><br/>"
+                    + "Neem gerust contact met ons op voor een vrijblijvend gesprek."
+                    + "<br/><br/>" + "En als je de inzichten van deze Duurzaamheidsbarometer waardevol vindt, deel onze quick scan gerust met je collega’s of andere professionals. "}
+                    logoOne={"facebook.svg"}
+                    logoTwo={"linkedin.svg"}
+                    cornerImage={"corner.png"}/>
+
+            <h3>Small</h3>
+            <SmallCTA
+                image={"people.svg"}
+                logoOne={"facebook.svg"}
+                logoTwo={"linkedin.svg"}
+                content={"Investeren in duurzaamheid doet bedrijven groeien én helpt onze planeet te beschermen. Is dat een inzicht dat je graag wil delen met je netwerk? Nodig dan snel collega’s en andere professionals uit om de Duurzaamheidsbarometer quick scan in te vullen en het voor zichzelf te ontdekken!"}></SmallCTA>
 
             <h2>Full Image</h2>
             <FullImage imageNumber={"05"}></FullImage>

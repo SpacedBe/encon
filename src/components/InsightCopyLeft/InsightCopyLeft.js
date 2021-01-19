@@ -8,7 +8,7 @@ function InsightCopyLeft(props) {
                 <h3 className="headerTitle">{props.title}</h3>
                 <p dangerouslySetInnerHTML={{__html: props.content}}></p>
             </div>
-            <img className="rightImage" src={process.env.PUBLIC_URL + '/assets/images/deelelementen/Encon_IG_Deelelementen_'+ props.imageNumber +'.png'}/>
+            <img className="rightImage" src={process.env.PUBLIC_URL + '/assets/images/elements/Encon_IG_Deelelementen_'+ props.imageNumber +'.png'}/>
         </section>
     );
 }
