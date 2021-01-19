@@ -1,0 +1,47 @@
+.smallCTA {
+  display: flex;
+  flex-flow: column;
+  padding: 36px 24px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+
+  .icon {
+    max-width: 75px;
+    padding: 0 0 36px 0;
+  }
+
+  .logos {
+    display: flex;
+    padding-top: 24px;
+    width: 104px;
+    justify-content: space-between;
+
+    img {
+      max-width: 40px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .smallCTA {
+    align-items: flex-end;
+    flex-flow: row;
+    justify-content: space-between;
+
+    .icon {
+      padding: 0 36px 0 0;
+    }
+
+    .content {
+      display: flex;
+      align-items: center;
+      padding-right: 24px;
+      max-width: 920px;
+      width: 80%;
+
+      p {
+        max-width: 700px;
+      }
+    }
+  }
+}

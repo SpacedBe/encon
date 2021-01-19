@@ -6,11 +6,20 @@ import InsightCopyRight from "../components/InsightCopyRight/InsightCopyRight";
 import InsightDoubleImage from "../components/InsightDoubleImage/InsightDoubleImage";
 import Footer from "../components/Footer/Footer";
 import FullImage from "../components/FullImage/FullImage";
+import SmallCTA from "../components/SmallCTA/SmallCTA";
 
 function Library() {
     return (
-        <div className="container">
+        <div>
             <h1>Library</h1>
+
+            <h2>CTA</h2>
+            <h3>Small</h3>
+            <SmallCTA
+                image={"people.svg"}
+                logoOne={"facebook.svg"}
+                logoTwo={"linkedin.svg"}
+                content={"Investeren in duurzaamheid doet bedrijven groeien én helpt onze planeet te beschermen. Is dat een inzicht dat je graag wil delen met je netwerk? Nodig dan snel collega’s en andere professionals uit om de Duurzaamheidsbarometer quick scan in te vullen en het voor zichzelf te ontdekken!"}></SmallCTA>
 
             <h2>Full Image</h2>
             <FullImage imageNumber={"05"}></FullImage>
