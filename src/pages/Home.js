@@ -12,15 +12,17 @@ import Footer from "../components/Footer/Footer";
 function Home() {
     return (
         <div>
-            <div className="bigContainer">
+            <div className="bigContainer header">
                 <img className="logo" src={Logo}/>
-                
+                <div className="caption">
+                    <h1>Vergeleken met <span className="bright">1.572</span> deelnemende <span className="bright">vlamingen</span>.</h1>
+                </div>
             </div>
 
             <div  className="container">
                 <section>
                     <h1 className="green">Resultaten quick scan</h1>
-                    <p>Dankjewel voor het invullen van onze Duurzaamheidsbarometer quick scan. We hebben je antwoorden
+                    <p className="bold">Dankjewel voor het invullen van onze Duurzaamheidsbarometer quick scan. We hebben je antwoorden
                         vergeleken met die van 1.572 Vlamingen om te achterhalen of je antwoorden vanuit een bedrijfscontext
                         overeen komen met wat de Vlaming ook effectief wil of nodig heeft. </p>
                     <br/>

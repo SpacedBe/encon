@@ -1,8 +1,22 @@
-.logo {
-  max-width: 130px;
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    max-width: 130px;
+  }
+
+  .caption {
+    display: none;
+  }
+}
+
+.bold {
+  font-weight: bolder;
 }
 
 .container {
+  margin: 0 auto;
   padding: 36px 24px;
 }
 
@@ -13,14 +27,34 @@
 
 @media only screen and (min-width: 768px) {
   .container {
-    margin: 0 auto;
+    padding: 56px 36px;
+  }
+
+  .bigContainer {
+    padding: 56px 36px 0 36px;
+  }
+
+  .header{
+    .caption {
+      display: inline;
+      max-width: 440px;
+      text-align: right;
+      color: var(--color-primary-tint);
+
+      .bright {
+        color: var(--color-primary);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
     padding: 56px 75px;
   }
 
-
   .bigContainer {
-    max-width: 1285px;
-    padding: 56px 75px;
+    padding: 56px 75px 0 75px;
   }
 }
 
