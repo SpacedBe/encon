@@ -50,7 +50,7 @@ function Home() {
                 content={"Investeren in duurzaamheid doet bedrijven groeien én helpt onze planeet te beschermen. Is dat een inzicht dat je graag wil delen met je netwerk? Nodig dan snel collega’s en andere professionals uit om de Duurzaamheidsbarometer quick scan in te vullen en het voor zichzelf te ontdekken!"}></SmallCTA>
 
             <div className="container">
-                <InsightCopyLeft title={"Het eerste inzicht"}
+                <InsightCopyLeft title={"1. Het eerste inzicht"}
                                  content={"Je denkt dat de Vlaming een resultaat van bovenstaande vragenlijst  geloof heeft in bedrijven of organisaties die zich als duurzaam voorstellen. Volgens jou gelooft de Vlaming dat bedrijven vooral duurzaam ondernemen om resultaat van bovenstaande vragenlijst. Je schat daarnaast in dat de Vlaming het resultaat van bovenstaande vragenlijst   aanvaardbaar vindt dat bedrijven winst maken door duurzaam te ondernemen." +
                                  "<br/> <br/>" +
                                  "Slechts 17% van de Vlaamse werknemers vindt het persoonlijk niet belangrijk dat zijn werkgever inzet op duurzaamheid. 29% vind het belangrijk genoeg dat het eventueel zou kunnen leiden tot veranderen van job.\n" +
@@ -74,7 +74,7 @@ function Home() {
 
 
             <div className="container">
-                <InsightCopyRight title={"Het tweede inzicht"}
+                <InsightCopyRight title={"2. Het tweede inzicht"}
                                   content={"Je denkt dat de vlaming de verantwoordelijkheid voor milieuproblemen legt bij resultaat van bovenstaande vragenlijst en dat resultaat van bovenstaande vragenlijst duurzaamheid niet belangrijk vindt voor bedrijven." +
                                   "<br/> <br/>" + "De Vlaming vindt dat bedrijven hun verantwoordelijkheid moeten opnemen om milieuproblemen op te lossen. 39% vindt dat het zelfs vooral aan bedrijven is hierin het voortouw te nemen, boven bijvoorbeeld burgerbewegingen of politiek. Slechts een kleine 2-3% vindt het niet belangrijk dat bedrijven initiatieven ondernemen in het management van het bedrijf of bijvoorbeeld op gebied van water- en energieverbruik, vervoer van goederen, materiaalkeuze in de productie of verwerking van afval."}
                                   imageNumber={"10"}/>
@@ -86,7 +86,7 @@ function Home() {
                        greenContent={"Duurzaamheid is belangrijk voor 83% van de werknemers en 78% van de sollicitanten, maar dan moeten ze wel de juiste informatie gecommuniceerd worden, want ze gaan er niet altijd zelf naar op zoek."}/>
 
             <div className="container">
-                <InsightDoubleImage title={"Het derde inzicht"}
+                <InsightDoubleImage title={"3. Het derde inzicht"}
                                     content={"Je denkt dat de Vlaming een resultaat van bovenstaande vragenlijst  geloof heeft in bedrijven of organisaties die zich als duurzaam voorstellen. Volgens jou gelooft de Vlaming dat bedrijven vooral duurzaam ondernemen om resultaat van bovenstaande vragenlijst. Je schat daarnaast in dat de Vlaming het resultaat van bovenstaande vragenlijst aanvaardbaar vindt dat bedrijven winst maken door duurzaam te ondernemen." +
                                     "<br/><br/>" +
                                     "Slechts 17% van de Vlaamse werknemers vindt het persoonlijk niet belangrijk dat zijn werkgever inzet op duurzaamheid. 29% vind het belangrijk genoeg dat het eventueel zou kunnen leiden tot veranderen van job." + "<br/><br/>" +
