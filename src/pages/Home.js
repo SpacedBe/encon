@@ -14,8 +14,8 @@ function Home() {
     return (
         <div>
             <div className="bigContainer header">
-                <img className="logo" src={Logo}/>
-                <img className="header-printer" src={Printer}/>
+                <img className="logo" src={Logo} alt={Logo}/>
+                <img className="header-printer" src={Printer} alt={Printer}/>
                 <div className="caption">
                     <h1>Vergeleken met <span className="bright">1.572</span> deelnemende <span
                         className="bright">vlamingen</span>.</h1>
@@ -40,7 +40,7 @@ function Home() {
                         hun belangrijkste uitdagingen heeft een serieus voetje voor op de concurrentie.</p>
                 </div>
 
-                <img className="scan-printer" src={Printer}/>
+                <img className="scan-printer" src={Printer} alt={Printer}/>
             </section>
 
             <SmallCTA
