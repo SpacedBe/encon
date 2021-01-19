@@ -9,6 +9,11 @@
   .caption {
     display: none;
   }
+
+  .header-printer {
+    display: inline;
+    max-width: 36px;
+  }
 }
 
 .bold {
@@ -25,6 +30,10 @@
   padding: 36px 24px;
 }
 
+.scan-printer {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .container {
     padding: 56px 36px;
@@ -34,7 +43,7 @@
     padding: 56px 36px 0 36px;
   }
 
-  .header{
+  .header {
     .caption {
       display: inline;
       max-width: 440px;
@@ -44,6 +53,25 @@
       .bright {
         color: var(--color-primary);
       }
+    }
+
+    .header-printer {
+      display: none;
+    }
+  }
+
+  .scan {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    div {
+      width: 80%;
+    }
+
+    .scan-printer {
+      display: inline;
+      max-width: 40px;
     }
   }
 }

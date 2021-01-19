@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/images/encon_logo.svg"
+import Printer from "../assets/images/icons/printer.svg"
 import SmallCTA from "../components/SmallCTA/SmallCTA";
 import InsightCopyLeft from "../components/InsightCopyLeft/InsightCopyLeft";
 import TextBlock from "../components/TextBlock/TextBlock";
@@ -14,25 +15,33 @@ function Home() {
         <div>
             <div className="bigContainer header">
                 <img className="logo" src={Logo}/>
+                <img className="header-printer" src={Printer}/>
                 <div className="caption">
-                    <h1>Vergeleken met <span className="bright">1.572</span> deelnemende <span className="bright">vlamingen</span>.</h1>
+                    <h1>Vergeleken met <span className="bright">1.572</span> deelnemende <span
+                        className="bright">vlamingen</span>.</h1>
                 </div>
             </div>
 
-            <div  className="container">
-                <section>
+            <section className="container scan">
+                <div>
                     <h1 className="green">Resultaten quick scan</h1>
-                    <p className="bold">Dankjewel voor het invullen van onze Duurzaamheidsbarometer quick scan. We hebben je antwoorden
-                        vergeleken met die van 1.572 Vlamingen om te achterhalen of je antwoorden vanuit een bedrijfscontext
+                    <p className="bold">Dankjewel voor het invullen van onze Duurzaamheidsbarometer quick scan. We
+                        hebben je antwoorden
+                        vergeleken met die van 1.572 Vlamingen om te achterhalen of je antwoorden vanuit een
+                        bedrijfscontext
                         overeen komen met wat de Vlaming ook effectief wil of nodig heeft. </p>
                     <br/>
                     <p>Zelfs indien jullie rechtstreekse klant een bedrijf is, blijft het belangrijk om de noden van de
-                        eindconsument in het oog te houden. Door de behoeften van de Vlaming te kennen weet je namelijk voor
+                        eindconsument in het oog te houden. Door de behoeften van de Vlaming te kennen weet je namelijk
+                        voor
                         welke uitdagingen jouw klanten staan en kan je je beter organiseren om hen te helpen deze
-                        uitdagingen aan te grijpen. Een bedrijf dat namelijk in staat is om zijn klanten te ondersteunen bij
+                        uitdagingen aan te grijpen. Een bedrijf dat namelijk in staat is om zijn klanten te ondersteunen
+                        bij
                         hun belangrijkste uitdagingen heeft een serieus voetje voor op de concurrentie.</p>
-                </section>
-            </div>
+                </div>
+
+                <img className="scan-printer" src={Printer}/>
+            </section>
 
             <SmallCTA
                 image={"people.svg"}
