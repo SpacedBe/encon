@@ -1,6 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  max-width: 1440px;
 
   .logo {
     max-width: 130px;
@@ -23,10 +24,12 @@
 .container {
   margin: 0 auto;
   padding: 36px 24px;
+  max-width: 1440px;
 }
 
 .bigContainer {
-  max-width: 1285px;
+  margin: 0 auto;
+  //max-width: 1440px;
   padding: 36px 24px;
 }
 
