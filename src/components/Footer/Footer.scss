@@ -3,6 +3,11 @@
   background-color: var(--color-primary);
   color: var(--color-white);
 
+  .wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+  }
   .content {
     display: flex;
     align-items: center;
